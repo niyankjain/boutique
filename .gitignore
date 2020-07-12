@@ -1,0 +1,30 @@
+# Maven build files
+target
+_remote.repositories
+.lastUpdated
+
+# Eclipse files
+.settings
+.classpath
+.project
+.factorypath
+.idea
+.metadata
+
+# Project files
+.log
+logs
+docs
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# node module files and ui files
+foresight-app/src/main/ui-src/node_modules
+foresight-app/src/main/ui-src/dist
+foresight-app/src/main/webapp/node_modules
+foresight-app/src/main/webapp/dist
+foresight-app/src/main/ui-src/bower_components
+modules.fileslist.json
+*.modules.fileslist.json
+yarn.lock
